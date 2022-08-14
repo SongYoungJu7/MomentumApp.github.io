@@ -1,0 +1,50 @@
+#login-form, #todo-form h2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+#login-form h2 {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 45px;
+	animation: appearSlowly 2s ease-in-out;
+}
+
+#login-form input, #todo-form input {
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+	transition: opacity 3.5s;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+#login-form input::placeholder, #todo-form input::placeholder {
+	opacity: 0.5;
+	color: white;
+	font-size: 25px;
+}
+
+#todo-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    margin-top: -10px;
+}
+#todo-form h2 {
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 40px;
+	animation: delayAppear 3.5s ease-in-out;
+}
+
+#todo-form input {
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 20px;
+	animation: delayAppear 4s ease-in-out;
+	margin-top:20px;
+    width: 430px;
+}

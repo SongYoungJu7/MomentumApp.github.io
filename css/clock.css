@@ -1,0 +1,15 @@
+.clock-area {
+	display: flex;
+	justify-content: center;
+	align-items: end;
+}
+
+#clock {
+	color: white;
+	font-size: 140px;
+}
+
+#sec {
+	color: white;
+	font-size: 80px;
+}
